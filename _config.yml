@@ -52,6 +52,7 @@ social: # jekyll-seo-tag > social overrides
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
   # extensions: ["strikethrough", "autolink", "table"]
+markdown: kramdown
 
 # 4. Jekyll settings
 sass:
@@ -92,11 +93,11 @@ defaults:
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-lang: en-GB # Set the site language
-title: "Alembic" # Site name or title, also used in jekyll-seo-tag
+lang: en-US # Set the site language
+title: "Ban-Sok Shin" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
-url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
+url: "https://bshin.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: "/"
 repo: "https://github.com/daviddarnes/alembic"
 email: "me@daviddarnes.com"
@@ -123,17 +124,23 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: Elements
-  url: /elements/
+- title: About Me
+  url: /aboutme/
+- title: Research
+  url: /research/
+- title: Publications
+  url: /publications/
 - title: Blog
   url: /blog/
-- title: Categories
-  url: /categories/
-- title: Search
-  url: /search/
+- title: Elements
+  url: /elements/
+# - title: Categories
+#   url: /categories/
+# - title: Search
+#   url: /search/
 
 navigation_footer:
-- title: adopted from david darnes
+- title: adopted from
   url: https://darn.es
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
@@ -158,3 +165,4 @@ fonts:
   font_urls:
     - https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap
     - https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap
+    # - https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300&display=swap

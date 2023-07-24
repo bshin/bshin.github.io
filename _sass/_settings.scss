@@ -7,8 +7,8 @@ $accentColour: #05bf85 !default;
 // Text colours
 $headingColour: #242e2b !default;
 $bodyColour: #384743 !default;
-$linkColour: #05bf85 !default;
-$hoverColour: #008000 !default;
+$linkColour: #022718 !default;
+$hoverColour: #1b961b !default;
 $focusColour: #fa407a !default;
 $captionColour: #a8adac !default;
 $white: #ffffff !default;
@@ -16,24 +16,31 @@ $white: #ffffff !default;
 // Typography
 $bodytype: (
   // font-family: "Georgia, serif",
-  font-family: 'Roboto', sans-serif,
-  regular: 400,
+  // font-family: "Menlo, monospace",
+  // font-family: '"Roboto", sans-serif',
+  font-family: '"Calibri", sans-serif',
+  // font-family: '"Roboto Slab", serif',
+  font-size: 0.5rem,
+  regular: 300,
   bold: 700,
   italic: italic,
-  cap-height: 0.75
+  cap-height: 0.7
 ) !default;
 
 $headingtype: (
-  // font-family: '"Merriweather", serif',
-  font-family: 'Roboto', sans-serif,
+  font-family: '"Merriweather", serif',  
+  // font-family: "Cambria, serif",
+  // font-family: '"Roboto Slab", serif',
+  // font-family: '"Roboto", sans-serif',
   regular: 400,
   bold: 700,
   cap-height: 0.75
 ) !default;
 
 $monospacetype: (
-  // font-family: "Menlo, monospace",
-  font-family: 'Roboto', sans-serif,
+  font-family: "Menlo, monospace",
+  // font-family: '"Roboto", sans-serif',
+  // font-family: '"Roboto Slab", serif',
   regular: 400,
   cap-height: 0.68
 ) !default;
