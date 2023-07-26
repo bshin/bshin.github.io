@@ -5,7 +5,7 @@ feature_text: |
   Research Scientist in Seismic Imaging at German Aerospace Center
 feature_image: "https://picsum.photos/1300/400?image=989"
 # feature_image: "/images/pexels-trace-hudson-2365457.jpg"
-usemathjax: true
+# usemathjax: true
 ---
 
 <!-- Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get rolling immediately. Install it, configure it, tweak it, push it. -->
