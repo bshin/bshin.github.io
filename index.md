@@ -1,8 +1,8 @@
 ---
-title: Home
+title: 
 feature_text: |
-  ## Hi, I'm Ban-Sok Shin
-  Research Scientist in Seismic Imaging at German Aerospace Center
+  ### Hi, I'm Ban-Sok Shin
+  Research Scientist in Seismic Imaging at German Aerospace Center 
 feature_image: "https://picsum.photos/1300/400?image=989"
 # feature_image: "/images/pexels-trace-hudson-2365457.jpg"
 # usemathjax: true

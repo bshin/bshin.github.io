@@ -5,7 +5,8 @@ body {
   height: 100%;
   display: flex;
   @include flex-direction(column);
-  overflow-x: hidden;
+  overflow-x: hidden;  
+  font-size: large;
 }
 
 .container {
@@ -20,6 +21,8 @@ body {
 .footer {
   .nav {
     text-align: right;
+    font-size: large;
+    font-family: "Merriweather", serif;
   }
   .logo {
     @include flex(0 0 auto);
